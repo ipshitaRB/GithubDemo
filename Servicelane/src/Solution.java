@@ -59,6 +59,7 @@ public class Solution {
 						while (i <= j) {
 							if (width[i] > 3 || width[i] < 1) {
 								try {
+									System.out.println("tadapapapaa");
 									throw new Exception("width is out of range");
 								} catch (Exception e) {
 									// TODO Auto-generated catch block
